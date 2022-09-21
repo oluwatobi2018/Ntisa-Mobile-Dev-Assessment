@@ -82,7 +82,7 @@ if (flutterVersionName == null) {
     flutterVersionName = '1.0'
 }
 
-apply plugin: 'com.android.application'
+apply plugin: 'https://dribbble.com/shots/14218141-Food-App-Concept/attachments/5858715?mode=media'
 apply from: "$flutterRot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
