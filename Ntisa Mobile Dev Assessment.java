@@ -148,6 +148,38 @@ public class MainActivity extends FlutterActivity {
 </layer-list>
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorPrimary">#009999</color>
+<color name="colorPrimaryDark">#006666</color>
+<color name="textColorPrimary">#FFFFFF</color>
+<color name="windowBackground">#FFFFFF</color>
+<color name="navigationBarColor">#000000</color>
+<color name="colorAccent">#006666</color>
+</resources>
+<resources>
+ <!-- Base application theme. -->
+ <style name="MyTheme" parent="https://dribbble.com/shots/14218141-Food-App-Concept/attachments/5858715?mode=media"></style>
+
+ <style name="MyTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+ </style>
+ </resources>
+ <resources>
+    <style name="MyTheme" parent="MyTheme.Base">
+    <item name="android:windowContentTransitions">true</item>
+    <item name="android:windowAllowEnterTransitionOverlap">true</item>
+    <item name="android:windowAllowReturnTransitionOverlap">true</item>
+    <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+    <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+  </style>
+  </resources>
+  
     <style name="LaunchTheme" parent="https://dribbble.com/shots/14218141-Food-App-Concept/attachments/5858715?mode=media">
         <!-- Show a splash screen on the activity. Automatically removed when
              Flutter draws its first frame -->
