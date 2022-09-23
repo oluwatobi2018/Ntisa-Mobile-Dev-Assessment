@@ -251,7 +251,7 @@ fi
 	<true/>
 </dict>
 </plist>
-9C17BDC2228CAE9600F020B1 /* Release */ = {
+
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -306,9 +306,9 @@ fi
 			};
 			name = Release;
 		};
-		9C17BDC4228CAE9600F020B1 /* Debug */ = {
+	 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 221BA24401C8851B945E6AA5 /* Pods-restaurant.debug.xcconfig */;
+			baseConfigurationReference =  /* Pods-restaurant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -326,9 +326,9 @@ fi
 			};
 			name = Debug;
 		};
-		9C17BDC5228CAE9600F020B1 /* Release */ = {
+		 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDE88E910094FBB52752E5DF /* Pods-restaurant.release.xcconfig */;
+			baseConfigurationReference =  /* Pods-restaurant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -349,27 +349,25 @@ fi
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C17BDAC228CAE9400F020B1 /* Build configuration list for PBXProject "restaurant" */ = {
+		 /* Build configuration list for PBXProject "restaurant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C17BDC1228CAE9600F020B1 /* Debug */,
-				9C17BDC2228CAE9600F020B1 /* Release */,
+				
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C17BDC3228CAE9600F020B1 /* Build configuration list for PBXNativeTarget "restaurant" */ = {
+		 /* Build configuration list for PBXNativeTarget "restaurant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C17BDC4228CAE9600F020B1 /* Debug */,
-				9C17BDC5228CAE9600F020B1 /* Release */,
+				
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9C17BDA9228CAE9400F020B1 /* Project object */;
+	rootObject = /* Project object */;
 }
 //
 //  MenuDetailViewController.swift
