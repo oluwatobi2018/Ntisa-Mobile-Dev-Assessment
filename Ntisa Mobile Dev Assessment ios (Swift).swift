@@ -554,7 +554,7 @@ class MenuTableViewController: UITableViewController {
 
         return cell
     }
- 
+ apply Theme: "img": "https://dribbble.com/shots/14218141-Food-App-Concept/attachments/5858715?mode=media",
 
     /*
     // Override to support conditional editing of the table view.
