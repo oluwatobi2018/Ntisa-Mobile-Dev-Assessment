@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="Food menu">
     <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.skewerspot.ss_menu">
+    package="Food menu">
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
