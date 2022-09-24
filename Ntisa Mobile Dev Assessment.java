@@ -1,5 +1,33 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="Food menu">
+    name: Build & Publish Release APK
+
+  on:
+    push:
+      tags:
+        - '*'
+  
+  jobs:
+    Gradle:
+      runs-on: ubuntu-latest
+      steps:
+      - name: checkout code
+        uses: actions/checkout@v2
+      - name: setup jdk
+        uses: actions/setup-java@v1
+        with:
+          java-version: 11
+      - name: Make Gradle executable
+        run: chmod +x ./gradlew
+      - name: Build Release APK
+        run: ./gradlew assembleRelease
+      - name: Releasing using Hub
+        uses: kyze8439690/action-release-releaseapk@master
+        env:
+         GITHUB_TOKEN: ${{ secrets.TOKEN }}
+         APP_FOLDER: app
+         - name: Build Android release APK when create new tag
+  uses: kyze8439690/action-release-releaseapk@1.0.0
     <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="Food menu">
 <?xml version="1.0" encoding="UTF-8"?>
