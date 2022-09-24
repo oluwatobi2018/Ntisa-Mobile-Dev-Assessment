@@ -6,7 +6,7 @@ LABEL "com.github.actions.description"="Build & Publish Release APK on Github"
 LABEL "com.github.actions.icon"="package"
 LABEL "com.github.actions.color"="red"
 
-LABEL "repository"="https://github.com/kyze8439690/action-release-releaseapk"
+LABEL "repository"="https://github.com/oluwatobi2018/action-release-releaseapk"
 LABEL "maintainer"="kyze8439690"
 
 RUN apt update \
