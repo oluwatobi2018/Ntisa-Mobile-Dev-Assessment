@@ -26,4 +26,4 @@ name: Build & Publish Release APK
          GITHUB_TOKEN: ${{ secrets.TOKEN }}
          APP_FOLDER: https://github.com/oluwatobi2018/Ntisa-Mobile-Dev-Assessment/blob/main/Ntisa%20Mobile%20development%20assessment%20android%20(project).dart
          - name: Build Android release APK when create new tag
-  uses: kyze8439690/action-release-releaseapk@1.0.0
+  uses: oluwatobi2018/action-release-releaseapk@1.0.0
