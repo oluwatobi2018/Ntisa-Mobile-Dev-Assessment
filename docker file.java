@@ -7,7 +7,7 @@ LABEL "com.github.actions.icon"="package"
 LABEL "com.github.actions.color"="red"
 
 LABEL "repository"="https://github.com/oluwatobi2018/action-release-releaseapk"
-LABEL "maintainer"="kyze8439690"
+LABEL "maintainer"="oluwatobi2018"
 
 RUN apt update \
 	&& apt -y upgrade \
