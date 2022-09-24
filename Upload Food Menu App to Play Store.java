@@ -5,7 +5,7 @@
   with:
     serviceAccountJsonPlainText: ${{ SERVICE_ACCOUNT_JSON }}
     packageName: Ntisa Food Menu App
-    releaseFiles: app/build/outputs/bundle/release/app-release.aab
+    releaseFiles: https://github.com/oluwatobi2018/Ntisa-Mobile-Dev-Assessment/releases/tag/2
     track: production
     status: inProgress
     inAppUpdatePriority: 2
