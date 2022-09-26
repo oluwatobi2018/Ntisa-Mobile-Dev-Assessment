@@ -1,3 +1,7 @@
+
+
+https://user-images.githubusercontent.com/112475290/192200867-80117395-3942-429f-b9d0-959656549b3c.mp4
+
 # Ntisa-Mobile-Dev-Assessment
 Ntisa Mobile Dev Assessment: A mobile food menu display app was developed using flutter (android) and flutter (ios).
 Java and Dart were used for the android food menu app while swift and objective c++ were used for the ios food menu app
